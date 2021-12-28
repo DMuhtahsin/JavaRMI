@@ -9,7 +9,7 @@ public class Client {
          // Getting the registry
          String host="192.168.1.2:1099"; 
          Hello remobject = (Hello)Naming.lookup("rmi://"+host+"/Hello");
-         System.out.println("Client terhubung dengan Server");
+         System.out.println("Client terhubung dengan Server =)))");
          System.out.println();
          System.out.println("----------------------");
          
