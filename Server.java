@@ -11,7 +11,7 @@ public class Server {
          // Instantiating the implementation class 
          Hello localobj=new ImplExample();
          Naming.rebind("rmi://192.168.1.1:1099/Hello",localobj);
-         System.out.println("Server siap menerima koneksi");
+         System.out.println("Server siap menerima koneksi :))))");
 
     
       } catch (RemoteException re) { 
